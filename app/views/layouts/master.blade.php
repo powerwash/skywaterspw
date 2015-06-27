@@ -62,6 +62,7 @@
 <body>
 	@include('partials.navbar')
 	@yield('dashboard')
+	@yield('about')
 	@include('partials.footer')
 
 </body>
