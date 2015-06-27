@@ -63,6 +63,7 @@
 	@include('partials.navbar')
 	@yield('dashboard')
 	@yield('about')
+	@yield('comred')
 	@include('partials.footer')
 
 </body>
