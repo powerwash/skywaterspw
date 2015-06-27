@@ -1,18 +1,25 @@
+<!-- header start classes:
+				fixed: fixed navigation mode (sticky menu) e.g. <header class="header fixed clearfix">
+				 dark: dark header version e.g. <header class="header dark clearfix">
+			================ -->
+<header class="header fixed clearfix">
+<div class="container">
+	<div class="row">
+		<div class="col-md-3">
 
-	<!-- navbar start -->
-	<!-- ================ -->
-	<nav class="navbar navbar-default" role="navigation">
-	<div class="container-fluid">
+			<!-- header-left start -->
+			<!-- ================ -->
+			<div class="header-left clearfix">
 
-	<!-- Toggle get grouped for better mobile display -->
-	<div class="navbar-header">
-	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-	<span class="sr-only">Toggle navigation</span>
-	<span class="icon-bar"></span>
-	<span class="icon-bar"></span>
-	<span class="icon-bar"></span>
-	</button>
-	</div>
+				<!-- logo -->
+				<div class="logo">
+					<a href="index.html"><img id="logo" src="images/logo_red.png" alt="iDea"></a>
+				</div>
+
+				<!-- name-and-slogan -->
+				<div class="site-slogan">
+					Clean &amp; Powerful Bootstrap Theme
+				</div>
 
 	<!-- Collect the nav links, forms, and other content for toggling -->
 	<div class="collapse navbar-collapse" id="navbar-collapse-1">
@@ -57,20 +64,77 @@
 					<li><a href="page-faq.html"><i class="icon-right-open"></i>FAQ page</a></li>
 					<li><a href="page-affix-sidebar.html"><i class="icon-right-open"></i>Sidebar - Affix Menu</a></li>
 				</ul>
-			</div>
-			<div class="col-md-4">
-				<div class="divider"></div>
-				<ul class="menu">
-					<li><a href="page-left-sidebar.html"><i class="icon-right-open"></i>Left Sidebar</a></li>
-					<li><a href="page-right-sidebar.html"><i class="icon-right-open"></i>Right Sidebar</a></li>
-					<li><a href="page-two-sidebars.html"><i class="icon-right-open"></i>Two Sidebars</a></li>
-					<li><a href="page-no-sidebar.html"><i class="icon-right-open"></i>No Sidebars</a></li>
-					<li><a href="page-sitemap.html"><i class="icon-right-open"></i>Sitemap</a></li>
-					<li><a href="page-invoice.html"><i class="icon-right-open"></i>Invoice <span class="badge">v1.1</span></a></li>
-				</ul>
-			</div>
-	</nav>
-	<!-- navbar end -->
 
+			</div>
+			<!-- header-left end -->
+
+		</div>
+		<div class="col-md-9">
+
+			<!-- header-right start -->
+			<!-- ================ -->
+			<div class="header-right clearfix">
+
+				<!-- main-navigation start -->
+				<!-- ================ -->
+				<div class="main-navigation animated">
+
+					<!-- navbar start -->
+					<!-- ================ -->
+					<nav class="navbar navbar-default" role="navigation">
+						<div class="container-fluid">
+
+							<!-- Toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="navbar-collapse-1">
+								<ul class="nav navbar-nav navbar-right">
+									<li class="dropdown">
+										<a href="{{{action('HomeController@showHome')}}}" class="dropdown-toggle" data-toggle="dropdown">Home</a>
+									</li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services</a>
+										<ul class="dropdown-menu">
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown">Residentional/Commercial</a>
+											</li>
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown">Car Wash/Detailing</a>
+											</li>
+											<li class="dropdown">
+											</li>
+											<li class="dropdown">
+											</li>
+										</ul>
+									</li>
+									<!-- mega-menu start -->
+									<li class="dropdown active mega-menu">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact Us</a>
+									</li>
+									<!-- mega-menu end -->
+								</ul>
+							</div>
+
+						</div>
+					</nav>
+					<!-- navbar end -->
+
+				</div>
+				<!-- main-navigation end -->
+
+			</div>
+			<!-- header-right end -->
+
+		</div>
 	</div>
-	<!-- main-navigation end -->
+</div>
+</header>
+			<!-- header end -->
