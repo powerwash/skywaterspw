@@ -22,7 +22,6 @@
 	</li>
 	<li class="dropdown">
 	<a href="#about" class="page-scroll">Contact</a>
-														
 	<!-- mega-menu start -->
 	<li class="dropdown mega-menu">
 	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services</a>
