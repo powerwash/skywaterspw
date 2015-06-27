@@ -5,65 +5,7 @@
 </head>
 @section('dashboard')
 	<body class="front no-trans">
-		<!-- scrollToTop -->
-		<!-- ================ -->
-		<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
-
-		<!-- page wrapper start -->
-		<!-- ================ -->
-		<div class="page-wrapper">
-
-			<!-- header start classes:
-				fixed: fixed navigation mode (sticky menu) e.g. <header class="header fixed clearfix">
-				 dark: dark header version e.g. <header class="header dark clearfix">
-			================ -->
-			<header class="header fixed header-small clearfix">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-3">
-
-							<!-- header-left start -->
-							<!-- ================ -->
-							<div class="header-left clearfix">
-
-								<!-- logo -->
-								<div class="logo">
-									<a href="index.html"><img id="logo" src="images/logo_red.png" alt="iDea"></a>
-								</div>
-
-								<!-- name-and-slogan -->
-								<div class="site-slogan">
-									Clean &amp; Powerful Bootstrap Theme
-								</div>
-
-							</div>
-							<!-- header-left end -->
-
-						</div>
-						<div class="col-md-9">
-
-							<!-- header-right start -->
-							<!-- ================ -->
-							<div class="header-right clearfix">
-
-								<!-- main-navigation start -->
-								<!-- ================ -->
-								<div class="main-navigation animated">
-
-									
-							</div>
-							<!-- header-right end -->
-
-						</div>
-					</div>
-				</div>
-			</header>
-			<!-- header end -->
-
-			
-
-			<!-- page-top start-->
-			<!-- ================ -->
+		
 			<div class="page-top object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
 				<div class="container">
 					<div class="row">
@@ -174,11 +116,12 @@
 			</section>
 			<!-- main-container end -->
 
+			@section('about')
 			<!-- section start -->
 			<!-- ================ -->
 			<div class="section clearfix object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="200">
 				<div class="container">
-					<h1 class="text-center">Who We Are</h1>
+					<h1 id ="about" class="text-center">Who We Are</h1>
 					<div class="separator"></div>
 					<p class="lead text-center">Lorem ipsum dolor sit amet. Maiores, odio ut deleniti doloremque ad at praesentium<br> laudantium molestias similique. Quisquam incidunt ut laboriosam.</p>
 					<br>
@@ -195,7 +138,7 @@
 				</div>
 			</div>
 			<!-- section end -->
-
+			@stop
 			<!-- section start -->
 			<!-- ================ -->
 			<div class="section gray-bg clearfix object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="300">
