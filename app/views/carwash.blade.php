@@ -1,11 +1,11 @@
 @extends('layouts.master')
 
 <head>
-@section ('title') Commercial &amp; Residential
+@section ('title') Car Wash &amp; Detailing
 @stop
 </head>
 
-@section('comred')
+@section('carwash')
 
 			<!-- main-container start -->
 			<!-- ================ -->
@@ -65,7 +65,7 @@
 
 							<!-- page-title start -->
 							<!-- ================ -->
-							<h1 class="page-title">Commercial & Residential Services</h1>
+							<h1 class="page-title">Car Wash & Detailing</h1>
 							<p>We offer a range of services for your home or business. Please browse our services located below to find out how we can help you and the price.</p>
 							<!-- page-title end -->
 
@@ -187,5 +187,6 @@
 				</div>
 			</div>
 			<!-- section end -->
-
+		</div>
+		<!-- page-wrapper end -->
 @stop
