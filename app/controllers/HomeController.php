@@ -25,4 +25,9 @@ class HomeController extends BaseController {
 		return View::make('comred');
 	}	
 
+	public function showCarwash()
+	{
+		return View::make('carwash');
+	}
+
 }

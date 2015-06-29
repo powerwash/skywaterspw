@@ -14,3 +14,5 @@
 Route::get('/', 'HomeController@showHome');
 
 Route::get('comred', 'HomeController@showComred');
+
+Route::get('carwash', 'HomeController@showCarwash');

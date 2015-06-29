@@ -20,64 +20,22 @@
 								<div class="col-sm-6 col-md-4 col-md-pull-4">
 									<div class="box-style-3 right object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="0">
 										<div class="icon-container default-bg">
-											<i class="fa fa-bold"></i>
+											<i class="fa fa-building-o"></i>
 										</div>
 										<div class="body">
-											<h2>Bootstrap Based</h2>
+											<h2>Commercial &amp; Residential</h2>
 											<p>Voluptatem ad provident non veritatis.</p>
-											<a href="page-services.html" class="link"><span>Read More</span></a>
-										</div>
-									</div>
-									<div class="box-style-3 right object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="200">
-										<div class="icon-container default-bg">
-											<i class="fa fa-check"></i>
-										</div>
-										<div class="body">
-											<h2>Unlimited Options</h2>
-											<p>Iure sequi unde hic. Sapiente quaerat.</p>
-											<a href="page-services.html" class="link"><span>Read More</span></a>
-										</div>
-									</div>
-									<div class="box-style-3 right object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="400">
-										<div class="icon-container default-bg">
-											<i class="fa fa-bicycle"></i>
-										</div>
-										<div class="body">
-											<h2>Easy to Use</h2>
-											<p>Inventore dolores aut laboriosam cum.</p>
-											<a href="page-services.html" class="link"><span>Read More</span></a>
 										</div>
 									</div>
 								</div>
 								<div class="col-sm-6 col-md-4">
 									<div class="box-style-3 object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="0">
 										<div class="icon-container default-bg">
-											<i class="fa fa-leaf"></i>
+											<i class="fa fa-car"></i>
 										</div>
 										<div class="body">
-											<h2>Clean Design and Code</h2>
+											<h2>Car Wash &amp;<br> Detailing</h2>
 											<p>Voluptatem ad provident non veritatis.</p>
-											<a href="page-services.html" class="link"><span>Read More</span></a>
-										</div>
-									</div>
-									<div class="box-style-3 object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="200">
-										<div class="icon-container default-bg">
-											<i class="fa fa-laptop"></i>
-										</div>
-										<div class="body">
-											<h2>Very Flexible</h2>
-											<p>Iure sequi unde hic. Sapiente quaerat.</p>
-											<a href="page-services.html" class="link"><span>Read More</span></a>
-										</div>
-									</div>
-									<div class="box-style-3 object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="400">
-										<div class="icon-container default-bg">
-											<i class="fa fa-sitemap"></i>
-										</div>
-										<div class="body">
-											<h2>Latest Technologies</h2>
-											<p>Inventore dolores aut laboriosam cum.</p>
-											<a href="page-services.html" class="link"><span>Read More</span></a>
 										</div>
 									</div>
 								</div>
@@ -104,7 +62,7 @@
 								</div>
 								<div class="col-md-4">
 									<div class="text-center">
-										<a href="#" class="btn btn-white btn-lg">Purchase</a>
+										<a href="#" class="btn btn-white btn-lg">Something</a>
 									</div>
 								</div>
 							</div>

@@ -64,6 +64,7 @@
 	@yield('dashboard')
 	@yield('about')
 	@yield('comred')
+	@yield('carwash')
 	@include('partials.footer')
 
 </body>
