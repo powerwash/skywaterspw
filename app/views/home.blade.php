@@ -20,7 +20,7 @@
 								<div class="col-sm-6 col-md-4 col-md-pull-4">
 									<div class="box-style-3 right object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="0">
 										<div class="icon-container default-bg">
-											<i class="fa fa-building-o"></i>
+											<a href="{{{ action('HomeController@showComred')}}}"><i class="fa fa-building-o"></i></a>
 										</div>
 										<div class="body">
 											<h2>Commercial &amp; Residential</h2>
@@ -31,7 +31,7 @@
 								<div class="col-sm-6 col-md-4">
 									<div class="box-style-3 object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="0">
 										<div class="icon-container default-bg">
-											<i class="fa fa-car"></i>
+											<a href="{{{ action('HomeController@showCarwash')}}}"><i class="fa fa-car"></i></a>
 										</div>
 										<div class="body">
 											<h2>Car Wash &amp;<br> Detailing</h2>
@@ -90,7 +90,6 @@
 						</div>
 						<div class="col-md-6">
 							<p class="space-top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi veniam, veritatis sint consequuntur! Natus, culpa, explicabo! Non quo laboriosam nobis quia, amet excepturi optio dolor impedit. Perferendis libero unde, nulla deserunt sequi. Voluptatum, officia suscipit porro reprehenderit vitae quo rem reiciendis, a vero quae. Vero beatae voluptatum, illo quaerat provident doloribus consequuntur saepe, id quas animi vel ad eligendi adipisci.</p>
-							<a href="page-about-2.html" class="btn btn-lg btn-default">Read More</a>
 						</div>
 					</div>
 				</div>
@@ -179,7 +178,7 @@
 
 			
 
-			<!-- section start -->
+		{{-- 	<!-- section start -->
 			<!-- ================ -->
 			<div class="section gray-bg text-muted footer-top clearfix">
 				<div class="container">
@@ -221,7 +220,7 @@
 					</div>
 				</div>
 			</div>
-			<!-- section end -->
+			<!-- section end --> --}}
 
 			
 

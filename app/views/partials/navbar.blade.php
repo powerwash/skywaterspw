@@ -2,7 +2,7 @@
 				fixed: fixed navigation mode (sticky menu) e.g. <header class="header fixed clearfix">
 				 dark: dark header version e.g. <header class="header dark clearfix">
 			================ -->
-<header class="header fixed clearfix">
+<header class="header fixed dark clearfix">
 <div class="container">
 	<div class="row"></div>
 		<div class="col-md-3">

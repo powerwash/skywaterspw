@@ -48,7 +48,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-md-6">
-								<p>Copyright © by <a target="_blank" href="http://moredesignonline.com/">MoreDesign</a>. All Rights Reserved</p>
+								<p>Copyright © <?php echo date('Y') ?> by <a target="_blank" href="http://moredesignonline.com/">MoreDesign</a>. All Rights Reserved</p>
 							</div>
 							<div class="col-md-6">
 								<nav class="navbar navbar-default" role="navigation">

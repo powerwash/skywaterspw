@@ -144,7 +144,7 @@
 			</section>
 			<!-- main-container end -->
 
-			<!-- section start -->
+		{{-- 	<!-- section start -->
 			<!-- ================ -->
 			<div class="section gray-bg text-muted footer-top clearfix">
 				<div class="container">
@@ -186,6 +186,6 @@
 					</div>
 				</div>
 			</div>
-			<!-- section end -->
+			<!-- section end --> --}}
 
 @stop
