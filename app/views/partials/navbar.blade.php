@@ -2,7 +2,7 @@
 				fixed: fixed navigation mode (sticky menu) e.g. <header class="header fixed clearfix">
 				 dark: dark header version e.g. <header class="header dark clearfix">
 			================ -->
-<header class="header fixed dark clearfix">
+<header class="header fixed clearfix">
 <div class="container">
 	<div class="row"></div>
 		<div class="col-md-3">
@@ -13,12 +13,12 @@
 
 				<!-- logo -->
 				<div class="logo">
-					<a href="{{{ action('HomeController@showHome')}}}"><img id="logo" src="images/logo_red.png" alt="iDea"></a>
+					<a href="{{{ action('HomeController@showHome')}}}"><img id="logo" src="images/SWLogo.png" alt="iDea"></a>
 				</div>
 
 				<!-- name-and-slogan -->
 				<div class="site-slogan">
-					Clean &amp; Powerful Bootstrap Theme
+					Clean &amp; Powerful
 				</div>
 			</div>	
 		</div>		
