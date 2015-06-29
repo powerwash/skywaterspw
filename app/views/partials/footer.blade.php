@@ -9,7 +9,7 @@
 						<div class="row">
 							<div class="col-md-6">
 								<div class="footer-content">
-									<div class="logo-footer"><img id="logo-footer" src="images/logo_red_footer.png" alt=""></div>
+									<div class="logo-footer"><img id="logo-footer" src="images/SWLogo.png" alt="" width="200px" height="52px"></div>
 									<div class="row">
 										<div class="col-sm-6">
 											<p>Lorem ipsum dolor sit amet, consect tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven.</p>
@@ -31,9 +31,9 @@
 								<ul class="social-links circle">
 									<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
 									<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-									<li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
+									{{-- <li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
 									<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
-									<li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+									<li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li> --}}
 								</ul>
 							</div>
 						</div>
