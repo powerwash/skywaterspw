@@ -5,7 +5,102 @@
 @stop
 </head>
 
+
 @section('carwash')
+	<!-- header start classes:
+				fixed: fixed navigation mode (sticky menu) e.g. <header class="header fixed clearfix">
+				 dark: dark header version e.g. <header class="header dark clearfix">
+			================ -->
+<header class="header fixed clearfix">
+<div class="container">
+	<div class="row"></div>
+		<div class="col-md-3">
+
+			<!-- header-left start -->
+			<!-- ================ -->
+			<div class="header-left clearfix">
+
+				<!-- logo -->
+				<div class="logo">
+					<a href="{{{ action('HomeController@showHome')}}}"><img id="logo" src="images/SWLogo.png" alt="iDea"></a>
+				</div>
+
+				<!-- name-and-slogan -->
+				<div class="site-slogan">
+					Clean &amp; Powerful
+				</div>
+			</div>	
+		</div>		
+
+		<div class="col-md-9">
+
+			<!-- header-right start -->
+			<!-- ================ -->
+			<div class="header-right clearfix">
+
+				<!-- main-navigation start -->
+				<!-- ================ -->
+				<div class="main-navigation animated">
+
+					<!-- navbar start -->
+					<!-- ================ -->
+					<nav class="navbar navbar-default" role="navigation">
+						<div class="container-fluid">
+
+							<!-- Toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="navbar-collapse-1">
+								<ul class="nav navbar-nav navbar-right">
+									<li class="dropdown">
+										<a href="{{{action('HomeController@showHome')}}}" class="dropdown-toggle" data-toggle="dropdown">Home</a>
+									</li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services</a>
+										<ul class="dropdown-menu">
+											<li class="dropdown">
+												<a href="{{{ action('HomeController@showComred')}}}" class="dropdown-toggle" data-toggle="dropdown">Residentional/Commercial</a>
+											</li>
+											<li class="dropdown">
+												<a href="{{{ action('HomeController@showCarwash')}}}" class="dropdown-toggle" data-toggle="dropdown">Car Wash/Detailing</a>
+											</li>
+											<li class="dropdown">
+											</li>
+											<li class="dropdown">
+											</li>
+										</ul>
+									</li>
+									<!-- mega-menu start -->
+									<li class="dropdown active mega-menu">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact Us</a>
+									</li>
+									<!-- mega-menu end -->
+								</ul>
+							</div>
+
+						</div>
+					</nav>
+					<!-- navbar end -->
+
+				</div>
+				<!-- main-navigation end -->
+
+			</div>
+			<!-- header-right end -->
+
+		</div>
+	</div>
+</div>
+</header>
+			<!-- header en
 
 			<!-- main-container start -->
 			<!-- ================ -->
@@ -143,6 +238,86 @@
 				</div>
 			</section>
 			<!-- main-container end -->
+
+			<!-- footer start (Add "light" class to #footer in order to enable light footer) -->
+			<!-- ================ -->
+			<footer id="footer">
+
+				<!-- .footer start -->
+				<!-- ================ -->
+				<div class="footer">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="footer-content">
+									<div class="logo-footer"><img id="logo-footer" src="images/SWLogo.png" alt="" width="200px" height="52px"></div>
+									<div class="row">
+										<div class="col-sm-6">
+											<p>Lorem ipsum dolor sit amet, consect tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven.</p>
+										</div>
+										<div class="col-sm-6">
+											<ul class="list-icons">
+												<li><i class="fa fa-map-marker pr-10"></i> One infinity loop, 54100</li>
+												<li><i class="fa fa-phone pr-10"></i> +00 1234567890</li>
+												<li><i class="fa fa-fax pr-10"></i> +00 1234567891 </li>
+												<li><i class="fa fa-envelope-o pr-10"></i> info@idea.com</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							{{-- <div class="space-bottom hidden-lg hidden-xs"></div> --}}
+							{{-- <div class="col-sm-6 col-md-2"> --}}
+							<div class="col-sm-6 col-sm-2">
+								<ul class="social-links circle">
+									<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+									<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+									{{-- <li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
+									<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
+									<li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li> --}}
+								</ul>
+							</div>
+						</div>
+						<div class="space-bottom hidden-lg hidden-xs"></div>
+					</div>
+				</div>
+				<!-- .footer end -->
+
+				<!-- .subfooter start -->
+				<!-- ================ -->
+				<div class="subfooter">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6">
+								<p>Copyright © <?php echo date('Y') ?> by <a target="_blank" href="http://moredesignonline.com/">MoreDesign</a>. All Rights Reserved</p>
+							</div>
+							<div class="col-md-6">
+								<nav class="navbar navbar-default" role="navigation">
+									<!-- Toggle get grouped for better mobile display -->
+									<div class="navbar-header">
+										<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-2">
+											<span class="sr-only">Toggle navigation</span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+										</button>
+									</div>   
+									<div class="collapse navbar-collapse" id="navbar-collapse-2">
+										<ul class="nav navbar-nav">
+											<li><a href="index.html">Home</a></li>
+											<li><a href="page-about.html">Services</a></li>
+											<li><a href="page-contact.html">Contact</a></li>
+										</ul>
+									</div>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- .subfooter end -->
+
+			</footer>
+			<!-- footer end -->
 
 
 @stop
