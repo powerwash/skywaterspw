@@ -77,7 +77,7 @@
 									</li>
 									<!-- mega-menu start -->
 									<li class="dropdown active mega-menu">
-										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact Us</a>
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Who We Are</a>
 									</li>
 									<!-- mega-menu end -->
 								</ul>
@@ -238,6 +238,26 @@
 			</section>
 			<!-- main-container end -->
 
+	<!-- section start -->
+			<!-- ================ -->
+			<div class="section clearfix object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="200">
+				<div class="container">
+					<h1 id ="about" class="text-center">Who We Are</h1>
+					<div class="separator"></div>
+					<p class="lead text-center">Lorem ipsum dolor sit amet. Maiores, odio ut deleniti doloremque ad at praesentium<br> laudantium molestias similique. Quisquam incidunt ut laboriosam.</p>
+					<br>
+					<div class="row">
+						<div class="col-md-6">
+							<img src="images/section-image-4.png" alt="">
+							<div class="space hidden-md hidden-lg"></div>
+						</div>
+						<div class="col-md-6">
+							<p class="space-top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi veniam, veritatis sint consequuntur! Natus, culpa, explicabo! Non quo laboriosam nobis quia, amet excepturi optio dolor impedit. Perferendis libero unde, nulla deserunt sequi. Voluptatum, officia suscipit porro reprehenderit vitae quo rem reiciendis, a vero quae. Vero beatae voluptatum, illo quaerat provident doloribus consequuntur saepe, id quas animi vel ad eligendi adipisci.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- section end -->
 
 <!-- footer start (Add "light" class to #footer in order to enable light footer) -->
 			<!-- ================ -->
@@ -257,10 +277,8 @@
 										</div>
 										<div class="col-sm-6">
 											<ul class="list-icons">
-												<li><i class="fa fa-map-marker pr-10"></i> One infinity loop, 54100</li>
-												<li><i class="fa fa-phone pr-10"></i> +00 1234567890</li>
-												<li><i class="fa fa-fax pr-10"></i> +00 1234567891 </li>
-												<li><i class="fa fa-envelope-o pr-10"></i> info@idea.com</li>
+												<li><i class="fa fa-phone pr-10"></i><a href="tel:1-210-665-1300">210 665 1300</a></li>
+												<li><i class="fa fa-envelope-o pr-10"></i><a href="mailto:jc@skywaterspw.com">jc@skywaterspw.com</a></li>
 											</ul>
 										</div>
 									</div>
@@ -301,13 +319,6 @@
 											<span class="icon-bar"></span>
 											<span class="icon-bar"></span>
 										</button>
-									</div>   
-									<div class="collapse navbar-collapse" id="navbar-collapse-2">
-										<ul class="nav navbar-nav">
-											<li><a href="index.html">Home</a></li>
-											<li><a href="page-about.html">Services</a></li>
-											<li><a href="page-contact.html">Contact</a></li>
-										</ul>
 									</div>
 								</nav>
 							</div>
@@ -319,3 +330,5 @@
 			</footer>
 			<!-- footer end -->
 @stop
+
+
