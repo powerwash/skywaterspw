@@ -62,9 +62,9 @@
 <body>
 	{{-- @include('partials.navbar') --}}
 	@yield('dashboard')
-	@yield('about')
 	@yield('comred')
 	@yield('carwash')
+	@yield('about')
 	{{-- @include('partials.footer') --}}
 
 </body>
