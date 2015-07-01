@@ -108,51 +108,6 @@
 				<div class="container">
 					<div class="row">
 
-						<!-- sidebar start -->
-						<aside class="col-md-3">
-							<div class="sidebar">
-								<div class="block clearfix">
-									<h3 class="title">Send us a message</h3>
-									<div class="separator"></div>
-									<div class="alert alert-success hidden" id="MessageSent3">
-										We have received your message, we will contact you very soon.
-									</div>
-									<div class="alert alert-danger hidden" id="MessageNotSent3">
-										Oops! Something went wrong please refresh the page and try again.
-									</div>
-									<form role="form" id="sidebar-form">
-										<div class="form-group has-feedback">
-											<label for="name3">Name</label>
-											<input type="text" class="form-control" id="name3" placeholder="Enter your name" name="name3">
-											<i class="fa fa-user form-control-feedback"></i>
-										</div>
-										<div class="form-group has-feedback">
-											<label for="email3">Email address</label>
-											<input type="email" class="form-control" id="email3" placeholder="Enter your email" name="email3">
-											<i class="fa fa-envelope form-control-feedback"></i>
-										</div>
-										<div class="form-group">
-											<label>Category</label>
-											<select class="form-control" id="category">
-												<option value="Sales">Brushing</option>
-												<option value="Support">Scrubbing</option>
-												<option value="Lorem">Washer</option>
-												<option value="Ipsum sit">Commercial</option>
-												<option value="Dolor amet">Residential</option>
-											</select>
-										</div>
-										<div class="form-group has-feedback">
-											<label for="message3">Message</label>
-											<textarea class="form-control" rows="4" id="message3" placeholder="" name="message3"></textarea>
-											<i class="fa fa-pencil form-control-feedback"></i>
-										</div>
-										<input type="submit" value="Submit" class="submit-button btn btn-default">
-									</form>
-								</div>
-							</div>
-						</aside>
-						<!-- sidebar end -->
-
 						<!-- main start -->
 						<!-- ================ -->
 						<div class="main col-md-9">
@@ -232,8 +187,51 @@
 							<!-- tabs end -->
 						</div>
 						<!-- main end -->
-
 					</div>
+						<!-- sidebar start -->
+						<aside class="col-md-3">
+							<div class="sidebar">
+								<div class="block clearfix">
+									<h3 class="title">Send us a message</h3>
+									<div class="separator"></div>
+									<div class="alert alert-success hidden" id="MessageSent3">
+										We have received your message, we will contact you very soon.
+									</div>
+									<div class="alert alert-danger hidden" id="MessageNotSent3">
+										Oops! Something went wrong please refresh the page and try again.
+									</div>
+									<form role="form" id="sidebar-form">
+										<div class="form-group has-feedback">
+											<label for="name3">Name</label>
+											<input type="text" class="form-control" id="name3" placeholder="Enter your name" name="name3">
+											<i class="fa fa-user form-control-feedback"></i>
+										</div>
+										<div class="form-group has-feedback">
+											<label for="email3">Email address</label>
+											<input type="email" class="form-control" id="email3" placeholder="Enter your email" name="email3">
+											<i class="fa fa-envelope form-control-feedback"></i>
+										</div>
+										<div class="form-group">
+											<label>Category</label>
+											<select class="form-control" id="category">
+												<option value="Sales">Brushing</option>
+												<option value="Support">Scrubbing</option>
+												<option value="Lorem">Washer</option>
+												<option value="Ipsum sit">Commercial</option>
+												<option value="Dolor amet">Residential</option>
+											</select>
+										</div>
+										<div class="form-group has-feedback">
+											<label for="message3">Message</label>
+											<textarea class="form-control" rows="4" id="message3" placeholder="" name="message3"></textarea>
+											<i class="fa fa-pencil form-control-feedback"></i>
+										</div>
+										<input type="submit" value="Submit" class="submit-button btn btn-default">
+									</form>
+								</div>
+							</div>
+						</aside>
+						<!-- sidebar end -->
 				</div>
 			</section>
 			<!-- main-container end -->
