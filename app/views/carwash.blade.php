@@ -60,8 +60,8 @@
 							<!-- Collect the nav links, forms, and other content for toggling -->
 							<div class="collapse navbar-collapse" id="navbar-collapse-1">
 								<ul class="nav navbar-nav navbar-right">
-									<li class="dropdown">
-										<a href="{{{action('HomeController@showHome')}}}" class="dropdown-toggle" data-toggle="dropdown">Home</a>
+									<li>
+										<a href="{{{action('HomeController@showHome')}}}">Home</a>
 									</li>
 									<li class="dropdown">
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services</a>
@@ -79,8 +79,8 @@
 										</ul>
 									</li>
 									<!-- mega-menu start -->
-									<li class="dropdown active mega-menu">
-										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Who We Are</a>
+									<li>
+										<a href="#whoweare">Who We Are</a>
 									</li>
 									<!-- mega-menu end -->
 								</ul>
@@ -100,7 +100,7 @@
 	</div>
 </div>
 </header>
-			<!-- header en
+			<!-- header end
 
 			<!-- main-container start -->
 			<!-- ================ -->
@@ -202,7 +202,7 @@
 									<div class="alert alert-danger hidden" id="MessageNotSent3">
 										Oops! Something went wrong please refresh the page and try again.
 									</div>
-									<form id="sidebar-form" METHOD="POST" ACTION="mailto:benitocardenas@gmail.com" ENCTYPE="text/plain">
+									<form id="sidebar-form" METHOD="POST" ACTION="MAILTO:benitocardenas@gmail.com" ENCTYPE="text/plain">
 										<div class="form-group has-feedback">
 											<label for="name3">Name</label>
 											<input type="text" class="form-control" id="name3" placeholder="Enter your name" name="name3">
@@ -243,7 +243,7 @@
 			<!-- ================ -->
 			<div class="section clearfix object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="200">
 				<div class="container">
-					<h1 id ="about" class="text-center">Who We Are</h1>
+					<h1 id ="about" class="text-center"><a name="whoweare">Who We Are</a></h1>
 					<div class="separator"></div>
 					<p class="lead text-center">Lorem ipsum dolor sit amet. Maiores, odio ut deleniti doloremque ad at praesentium<br> laudantium molestias similique. Quisquam incidunt ut laboriosam.</p>
 					<br>
@@ -287,15 +287,10 @@
 									</div>
 								</div>
 							</div>
-							{{-- <div class="space-bottom hidden-lg hidden-xs"></div> --}}
-							{{-- <div class="col-sm-6 col-md-2"> --}}
 							<div class="col-sm-6 col-sm-2">
 								<ul class="social-links circle">
 									<li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
 									<li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-									{{-- <li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
-									<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
-									<li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li> --}}
 								</ul>
 							</div>
 						</div>
@@ -309,8 +304,8 @@
 				<div class="subfooter">
 					<div class="container">
 						<div class="row">
-							<div class="col-md-6">
-								<p>Copyright © <?php echo date('Y') ?> by <a target="_blank" href="http://moredesignonline.com/">MoreDesign</a>. All Rights Reserved</p>
+							<div>
+								<center><p>Copyright © <?php echo date('Y') ?> by <a target="_blank" href="http://moredesignonline.com/">MoreDesign</a>. All Rights Reserved</p></center>
 							</div>
 							<div class="col-md-6">
 								<nav class="navbar navbar-default" role="navigation">

@@ -57,8 +57,8 @@
 							<!-- Collect the nav links, forms, and other content for toggling -->
 							<div class="collapse navbar-collapse" id="navbar-collapse-1">
 								<ul class="nav navbar-nav navbar-right">
-									<li class="dropdown">
-										<a href="{{{action('HomeController@showHome')}}}" class="dropdown-toggle" data-toggle="dropdown">Home</a>
+									<li>
+										<a href="{{{action('HomeController@showHome')}}}">Home</a>
 									</li>
 									<li class="dropdown">
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services</a>
@@ -76,8 +76,8 @@
 										</ul>
 									</li>
 									<!-- mega-menu start -->
-									<li class="dropdown active mega-menu">
-										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Who We Are</a>
+									<li>
+										<a href="#whoweare"	>Who We Are</a>
 									</li>
 									<!-- mega-menu end -->
 								</ul>
@@ -240,7 +240,7 @@
 			<!-- ================ -->
 			<div class="section clearfix object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="200">
 				<div class="container">
-					<h1 id ="about" class="text-center">Who We Are</h1>
+					<h1 id ="about" class="text-center"><a name="whoweare">Who We Are</a></h1>
 					<div class="separator"></div>
 					<p class="lead text-center">Lorem ipsum dolor sit amet. Maiores, odio ut deleniti doloremque ad at praesentium<br> laudantium molestias similique. Quisquam incidunt ut laboriosam.</p>
 					<br>
