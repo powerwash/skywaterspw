@@ -202,7 +202,7 @@
 									<div class="alert alert-danger hidden" id="MessageNotSent3">
 										Oops! Something went wrong please refresh the page and try again.
 									</div>
-									<form id="sidebar-form" METHOD="POST" ACTION="MAILTO:benitocardenas@gmail.com" ENCTYPE="text/plain">
+									<form id="sidebar-form" METHOD="POST" action="/php/email-sender.php">
 										<div class="form-group has-feedback">
 											<label for="name3">Name</label>
 											<input type="text" class="form-control" id="name3" placeholder="Enter your name" name="name3">
